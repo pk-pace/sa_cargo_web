@@ -13,6 +13,7 @@ import 'package:sa_cargo_web/widgets/new_manifest/new_manifest.dart';
 
 import '../../widgets/Navbar/navbar.dart';
 import '../../widgets/centered_view/centered_view.dart';
+import '../home/home_screen.dart';
 
 class NewManifestScreen extends StatelessWidget {
   NewManifestScreen({super.key});
@@ -302,7 +303,12 @@ class NewManifestScreen extends StatelessWidget {
                                     MaterialStateProperty.all(Colors.green),
                               ),
                               onPressed: () {
-                                Get.back();
+                                //Get.back();
+                                Navigator.of(context).push(
+                                  new MaterialPageRoute(
+                                    builder: (context) => new HomeScreen(),
+                                  ),
+                                );
                                 // Get.to(() => const ShipmentInfoScreen());
                               },
                               child: Text("Cancel"),
