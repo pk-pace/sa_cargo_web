@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "507603890895",
+    "firebase_url": "https://pivotal-development-e0d3c-default-rtdb.firebaseio.com",
+    "project_id": "pivotal-development-e0d3c",
+    "storage_bucket": "pivotal-development-e0d3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507603890895:android:944b7e01cae3c458033dba",
+        "android_client_info": {
+          "package_name": "com.isimangaliso.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507603890895-6njdrd9qch9lkegb5g5sjokiglmibqal.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isimangaliso.app",
+            "certificate_hash": "6d72f8e7a0feb1dab37b296530d239ca60169001"
+          }
+        },
+        {
+          "client_id": "507603890895-7gflo4o3ou65bupfvh79lt96h6o30iog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy3wYsnYvTudjkIcXbmFauY_z2GJcI5eA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507603890895-7gflo4o3ou65bupfvh79lt96h6o30iog.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "507603890895-er0m1knnkhq8nff9d52bj8d578i804b1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "za.ac.nihss.vs"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507603890895:android:5b13f4a6b8545db0033dba",
+        "android_client_info": {
+          "package_name": "za.ac.nihss.vs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507603890895-7gflo4o3ou65bupfvh79lt96h6o30iog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy3wYsnYvTudjkIcXbmFauY_z2GJcI5eA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507603890895-7gflo4o3ou65bupfvh79lt96h6o30iog.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "507603890895-er0m1knnkhq8nff9d52bj8d578i804b1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "za.ac.nihss.vs"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507603890895:android:41043d1acc3fdbc7033dba",
+        "android_client_info": {
+          "package_name": "za.co.sacargoservices.weare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507603890895-erphcnsho1f6smq2mondjsms6l94scd2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "za.co.sacargoservices.weare",
+            "certificate_hash": "1f3472530254d7373247d50d6318c3d272893c18"
+          }
+        },
+        {
+          "client_id": "507603890895-7gflo4o3ou65bupfvh79lt96h6o30iog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy3wYsnYvTudjkIcXbmFauY_z2GJcI5eA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507603890895-7gflo4o3ou65bupfvh79lt96h6o30iog.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "507603890895-er0m1knnkhq8nff9d52bj8d578i804b1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "za.ac.nihss.vs"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
