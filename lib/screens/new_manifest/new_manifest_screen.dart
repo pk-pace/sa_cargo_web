@@ -197,37 +197,37 @@ class NewManifestScreen extends StatelessWidget {
                               },
                         child: Text("Upload CSV"),
                       ),
-                      // Obx(() {
-                      //   return Visibility(
-                      //     visible: _newManifestController.isUploading.value,
-                      //     child: SizedBox(
-                      //       height: 10,
-                      //       child: LinearProgressIndicator(
-                      //         value:
-                      //             (_newManifestController.uploadedData.value /
-                      //                 rows.length),
-                      //         backgroundColor: Colors.grey[200],
-                      //         valueColor: const AlwaysStoppedAnimation<Color>(
-                      //             Colors.black),
-                      //       ),
-                      //     ),
-                      //   );
-                      // }),
-                      // Obx(() {
-                      //   return Visibility(
-                      //     visible: _newManifestController.isAdded.value,
-                      //     child: SizedBox(
-                      //       height: 50.h,
-                      //       child: Row(
-                      //         children: [
-                      //           Icon(Icons.file_copy_outlined,
-                      //               color: Colors.black, size: 30.sp),
-                      //           Text(_newManifestController.fileName.value)
-                      //         ],
-                      //       ),
-                      //     ),
-                      //   );
-                      // }),
+                      Obx(() {
+                        return Visibility(
+                          visible: _newManifestController.isUploading.value,
+                          child: SizedBox(
+                            height: 10,
+                            child: LinearProgressIndicator(
+                              value:
+                                  (_newManifestController.uploadedData.value /
+                                      rows.length),
+                              backgroundColor: Colors.grey[200],
+                              valueColor: const AlwaysStoppedAnimation<Color>(
+                                  Colors.black),
+                            ),
+                          ),
+                        );
+                      }),
+                      Obx(() {
+                        return Visibility(
+                          visible: _newManifestController.isAdded.value,
+                          child: SizedBox(
+                            height: 50,
+                            child: Row(
+                              children: [
+                                Icon(Icons.file_copy_outlined,
+                                    color: Colors.black, size: 30),
+                                Text(_newManifestController.fileName.value)
+                              ],
+                            ),
+                          ),
+                        );
+                      }),
                       Row(
                         children: [
                           Expanded(
