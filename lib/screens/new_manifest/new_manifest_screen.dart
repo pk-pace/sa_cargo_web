@@ -133,7 +133,7 @@ class NewManifestScreen extends StatelessWidget {
                             color: Colors.green,
                             fontSize: 16,
                             fontWeight: FontWeight.w500,
-                            height: 3,
+                            height: 3.h,
                             fontFamily: "poppins_semiBold",
                           ),
                         ),
@@ -221,7 +221,7 @@ class NewManifestScreen extends StatelessWidget {
                             child: Row(
                               children: [
                                 Icon(Icons.file_copy_outlined,
-                                    color: Colors.black, size: 30),
+                                    color: Colors.black, size: 30.sp),
                                 Text(_newManifestController.fileName.value)
                               ],
                             ),
